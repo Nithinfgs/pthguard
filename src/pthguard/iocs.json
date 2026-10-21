@@ -1,0 +1,26 @@
+{
+  "_source": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/ (observed 2026-10-21)",
+  "campaigns": [
+    {
+      "name": "litellm-1.107.0",
+      "sha256": [
+        "7f191632e7320705d154b85204f1ae546b543acbd7e8861229b76f5042b92bdb",
+        "9dd0a3926f96a37eb86cf1ee2310d9be93139cc4ebef3ef9e2efe9531390be25",
+        "34bef04fe88ac9d0aae0475630b1738681d15b94f233ac8aa46eacf5968305fa",
+        "462d0c9f67ca522d9e0e4acd245e90b36ce0d5353604a66bb7c43a1ec4a6fcf7",
+        "2befe2a79fb4fbbd9a543b5b40b530c8cffa8771bab22b8fb22b2e4ae3b1f819"
+      ],
+      "strings": [
+        "litellm.dev/healthcheck",
+        "PRIVCOLLECT_ACTIVE",
+        "letters9813/pythonclient-test",
+        "remote_code_loader.lock",
+        ".pc_once_72129118c59f5636c0bb"
+      ],
+      "host_markers": [
+        "/tmp/.pc_once_72129118c59f5636c0bb",
+        "/tmp/remote_code_loader.lock"
+      ]
+    }
+  ]
+}
